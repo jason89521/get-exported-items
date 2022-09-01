@@ -1,0 +1,29 @@
+{
+  "name": "get-exported-items",
+  "version": "0.0.0",
+  "description": "Get the exported items from a package.",
+  "bin": {
+    "gei": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "keywords": [],
+  "author": "Xuan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jason89521/get-exported-items"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.2.245",
+    "@types/glob": "^8.0.0",
+    "@types/prompts": "^2.0.14",
+    "glob": "^8.0.3",
+    "prompts": "^2.4.2",
+    "typescript": "^4.8.2"
+  }
+}
